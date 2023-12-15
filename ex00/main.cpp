@@ -18,8 +18,6 @@ int main()
 	{
 		std::cerr << "Error: " << e.what() << '\n';
 	}
-
-
 }
 
 //int main()
