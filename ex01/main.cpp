@@ -3,10 +3,10 @@
 int main()
 {
 	Span sp1 = Span(5);
-	Span sp2 = Span(500);
+	Span sp2 = Span(10000);
 	std::vector<int> v;
 
-	for (int i = -100; i < 200; i++)
+	for (int i = -5000; i < 5000; i++)
 		v.push_back(i);
 
 	try

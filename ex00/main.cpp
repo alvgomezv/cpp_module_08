@@ -9,7 +9,7 @@ int main()
 
 	try
 	{
-		int n1 = easyfind(vect, 5);
+		int n1 = easyfind(vect, 7);
 		std::cout << "Found: " << n1 << std::endl;
 		int n2 = easyfind(vect, 100);
 		std::cout << "Found: " << n2 << std::endl;
